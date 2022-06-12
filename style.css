@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main form .items {
+    display: flex;
+    flex-direction: column;
+}
+
+main form input {
+    margin-bottom: 10px;
+    width: auto;
+}
+
+main form button {
+    width: auto;
+    height: 20%;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+}
+
+.esconde {
+    visibility: hidden;
+}
