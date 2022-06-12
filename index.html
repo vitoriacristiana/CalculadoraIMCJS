@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/style.css">
+
+    <title>CalculadoraIMCJS</title>
+</head>
+
+<body>
+    <main>
+        <h1>CalculadoraIMCJS</h1>
+        <hr>
+        <form>
+            <div class="items">
+                <label for="peso">Informe seu peso em kg</label>
+                <input type="number" name="peso" id="peso"
+                    placeholder="Peso (kg)">
+                <label for="altura">Informe sua altura em cm</label>
+                <input type="number" name="altura" id="altura"
+                    placeholder="Altura (cm)">
+                <button type="submit" onclick="calcular()">Enviar</button>
+            </div>
+        </form>
+        <hr>
+        <div id="resultados" class="esconde">
+            <h3>Resultados computados</h3>
+            <div id="imc">Seu IMC é 0 kg/m².</div>
+            <div id="diagnostico">Diagnóstico: --- </div>
+        </div>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
